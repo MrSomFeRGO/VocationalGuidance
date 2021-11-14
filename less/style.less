@@ -92,7 +92,17 @@
    width: 1365px;
    margin: 0 auto;
 }
+h2 {
+   text-align: center;
+   color: #004389;
+   font-weight: bold;
+   font-size: 64px;
+   margin: 0;
 
+   span {
+      color: #E3000F;
+   }
+}
 body {
    font-family: 'Neo Sans Pro', sans-serif;
    font-size: 24px;
@@ -103,10 +113,9 @@ body {
 header {
    background-image: url(../assets/img/header\ bg.png);
    background-repeat: no-repeat;
-   background-size: contain;
+   background-size: 100%;
    background-color: white;
-   height: 1916px;
-
+   padding-bottom: 25vw;
    .container {
       width: 1200px;
 
@@ -157,5 +166,40 @@ header {
             }
          }
       }
+   }
+}
+
+.sec1 {
+   
+   .container {
+      width: 1388px;
+      
+      .slider_block{
+
+         .slide{
+            position: relative;
+            text-align: center;
+
+            p {
+               position: absolute;
+               top: 40%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+               font-weight: 500;
+               font-size: 26px;
+               line-height: 31px;
+               letter-spacing: -0.005em;
+               color: #E3000F;
+            }
+         }
+      }
+   }
+   
+}
+
+.sec2 {
+
+   .container{
+      width: 1170px;
    }
 }
