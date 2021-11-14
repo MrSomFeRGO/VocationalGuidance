@@ -96,14 +96,14 @@ ul.bxslider {
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
   left: -100px;
-  background: url('./assets/img/left\ arrow.png') no-repeat;
+  background: url('../assets/img/left\ arrow.png') no-repeat;
 }
 
 
 
 .bx-wrapper .bx-next {
   right: -100px;
-  background: url('./assets/img/right\ arrow.png') no-repeat;
+  background: url('../assets/img/right\ arrow.png') no-repeat;
 }
 
 
