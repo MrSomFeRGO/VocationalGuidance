@@ -145,6 +145,7 @@ header .container .cont h1 span {
 }
 .sec2 {
   margin-top: 110px;
+  margin-bottom: 180px;
 }
 .sec2 .container {
   width: 1170px;
@@ -217,4 +218,101 @@ header .container .cont h1 span {
   top: 15px;
   left: 65px;
   z-index: -1;
+}
+.sec3 .container {
+  width: 1200px;
+  height: 900px;
+}
+.sec4 {
+  margin-bottom: 180px;
+}
+.sec4 .container {
+  width: 1350px;
+}
+.sec4 .container .cont {
+  margin-top: 110px;
+  padding-left: 100px;
+  position: relative;
+}
+.sec4 .container .cont p {
+  font-family: Neo Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #004389;
+  position: relative;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+.sec4 .container .cont p a {
+  color: #004389;
+}
+.sec4 .container .cont p a:visited {
+  color: #004389;
+}
+.sec4 .container .cont p a:hover {
+  color: #E3000F;
+}
+.sec4 .container .cont p:after {
+  position: absolute;
+  content: "";
+  background-color: #004389;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  top: 14px;
+  left: -25px;
+}
+.sec4 .container .cont:after {
+  position: absolute;
+  content: "";
+  width: 1270px;
+  height: 323px;
+  background: #FFFFFF;
+  box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 83px;
+  top: -20px;
+  left: 30px;
+  z-index: -1;
+}
+.sec4 .container .cont:before {
+  position: absolute;
+  content: "";
+  width: 1270px;
+  height: 323px;
+  background: #004389;
+  box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+  border-radius: 83px;
+  top: 15px;
+  left: 65px;
+  z-index: -1;
+}
+.sec5 .container {
+  width: 1200px;
+  height: 900px;
+}
+footer {
+  position: relative;
+  text-align: center;
+}
+footer img {
+  width: 100%;
+  margin-bottom: -15px;
+  z-index: -1;
+}
+footer .container p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: -0.005em;
+  color: white;
+  margin-bottom: 10px;
+}
+footer .container p a {
+  color: white;
 }
