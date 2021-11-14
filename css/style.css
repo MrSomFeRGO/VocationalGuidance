@@ -68,6 +68,9 @@ h2 {
 h2 span {
   color: #E3000F;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Neo Sans Pro', sans-serif;
   font-size: 24px;
@@ -94,10 +97,12 @@ header .container .menu .logo a img {
   width: 25%;
   margin-top: -30px;
 }
-header .container .menu .items span {
+header .container .menu .items a {
   margin: 0 25px 0 0;
+  color: white;
+  text-decoration: none;
 }
-header .container .menu .items span:last-child {
+header .container .menu .items a:last-child {
   margin: 0;
 }
 header .container .cont h1 {
@@ -221,9 +226,18 @@ header .container .cont h1 span {
   left: 65px;
   z-index: -1;
 }
+.sec3 {
+  margin-bottom: 110px;
+}
 .sec3 .container {
   width: 1200px;
-  height: 900px;
+}
+.sec3 .container h2 {
+  margin-bottom: 40px;
+}
+.sec3 .container iframe {
+  border: 14px solid #004389;
+  border-radius: 30px;
 }
 .sec4 {
   margin-bottom: 180px;

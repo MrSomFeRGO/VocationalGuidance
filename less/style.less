@@ -105,6 +105,10 @@ h2 {
    }
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 body {
    font-family: 'Neo Sans Pro', sans-serif;
    font-size: 24px;
@@ -147,8 +151,10 @@ header {
          }
 
          .items {
-            span {
+            a {
                margin: 0 25px 0 0;
+               color: white;
+               text-decoration: none;
 
                &:last-child {
                   margin: 0;
@@ -308,11 +314,19 @@ header {
 }
 
 .sec3 {
+   margin-bottom: 110px;
 
    .container {
       width: 1200px;
-      height: 900px;
 
+      h2 {
+         margin-bottom: 40px;
+      }
+
+      iframe {
+         border: 14px solid #004389;
+         border-radius: 30px;
+      }
    }
 }
 
