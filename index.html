@@ -24,10 +24,24 @@
         infiniteLoop: true,
       });
     });
+    $(function() {
+      $(window).scroll(function() {
+        if($(this).scrollTop() != 0) {
+          $('#toTop').fadeIn();
+        } else { 
+          $('#toTop').fadeOut();
+        }
+      });
+        
+      $('#toTop').click(function() {
+        $('body,html').animate({scrollTop:0},800);
+      });
+    });
   </script>
 </head>
 
 <body>
+  
   <div class="wrapper">
     <header>
       <div class="container">
@@ -149,6 +163,7 @@
       </div>
     </footer>
   </div>
+  <div id="toTop"></div>
 </body>
 
 </html>
