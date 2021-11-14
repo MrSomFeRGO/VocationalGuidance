@@ -90,6 +90,10 @@ header .container .menu {
   padding: 70px 0 0 0;
   color: white;
 }
+header .container .menu .logo a img {
+  width: 25%;
+  margin-top: -30px;
+}
 header .container .menu .items span {
   margin: 0 25px 0 0;
 }
