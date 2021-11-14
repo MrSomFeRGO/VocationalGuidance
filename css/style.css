@@ -143,6 +143,78 @@ header .container .cont h1 span {
   letter-spacing: -0.005em;
   color: #E3000F;
 }
+.sec2 {
+  margin-top: 110px;
+}
 .sec2 .container {
   width: 1170px;
+}
+.sec2 .container h2 {
+  position: relative;
+}
+.sec2 .container h2:after {
+  background-image: url("../assets/img/cube1.png");
+  position: absolute;
+  top: 105px;
+  right: -260px;
+  content: "";
+  width: 326px;
+  height: 298px;
+}
+.sec2 .container img {
+  display: block;
+  margin: 70px auto 0 auto;
+  width: 826px;
+  height: 720px;
+}
+.sec2 .container .cont {
+  margin-top: 110px;
+  padding-left: 100px;
+  position: relative;
+}
+.sec2 .container .cont p {
+  font-family: Neo Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  color: #004389;
+  position: relative;
+}
+.sec2 .container .cont p span {
+  color: #E3000F;
+}
+.sec2 .container .cont p:after {
+  position: absolute;
+  content: "";
+  background-color: #E3000F;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  top: 19px;
+  left: -25px;
+}
+.sec2 .container .cont:after {
+  position: absolute;
+  content: "";
+  width: 1057px;
+  height: 350px;
+  background: #FFFFFF;
+  box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 83px;
+  top: -20px;
+  left: 30px;
+  z-index: -1;
+}
+.sec2 .container .cont:before {
+  position: absolute;
+  content: "";
+  width: 1057px;
+  height: 350px;
+  background: #004389;
+  box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+  border-radius: 83px;
+  top: 15px;
+  left: 65px;
+  z-index: -1;
 }
