@@ -262,9 +262,11 @@ header .container .cont h1 span {
 .sec3 .container h2 {
   margin-bottom: 40px;
 }
-.sec3 .container iframe {
+.sec3 .container #map {
   border: 14px solid #004389;
   border-radius: 30px;
+  width: 1200px;
+  height: 720px;
 }
 .sec4 {
   margin-bottom: 180px;
