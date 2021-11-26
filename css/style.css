@@ -114,6 +114,17 @@ header .container .menu .items a {
 header .container .menu .items a:last-child {
   margin: 0;
 }
+header .container .topic {
+  margin: 65px auto 0 auto;
+  width: 900px;
+}
+header .container .topic p {
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0;
+}
 header .container .cont h1 {
   font-family: Neo Sans Pro;
   font-style: normal;
@@ -125,7 +136,7 @@ header .container .cont h1 {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding-left: 33px;
   position: relative;
-  margin-top: 380px;
+  margin-top: 192px;
 }
 header .container .cont h1::before {
   content: "";
