@@ -79,19 +79,22 @@ h2 span {
 }
 html {
   scroll-behavior: smooth;
+  min-width: 1020px;
 }
 body {
   font-family: 'Neo Sans Pro', sans-serif;
   font-size: 24px;
   font-weight: 400;
   margin: 0;
+  min-width: 1020px;
+  overflow-x: hidden;
 }
 header {
   background-image: url(../assets/img/header_bg.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: white;
-  padding-bottom: 25vw;
+  padding-bottom: 30%;
 }
 header .container {
   width: 1200px;
