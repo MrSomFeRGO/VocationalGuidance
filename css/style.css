@@ -129,8 +129,8 @@ header .container .cont h1 {
   font-family: Neo Sans Pro;
   font-style: normal;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 44px;
+  font-size: 2vw;
+  line-height: 2vw;
   letter-spacing: -0.005em;
   color: white;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -141,7 +141,7 @@ header .container .cont h1 {
 header .container .cont h1::before {
   content: "";
   background-color: #E3000F;
-  height: 220px;
+  height: 11vw;
   width: 8px;
   position: absolute;
   left: 0;
@@ -186,6 +186,7 @@ header .container .cont h1 span {
   content: "";
   width: 326px;
   height: 298px;
+  z-index: -1;
 }
 .sec2 .container img {
   display: block;
@@ -288,7 +289,7 @@ header .container .cont h1 span {
   color: #004389;
 }
 .sec4 .container .cont p a:hover {
-  color: #E3000F;
+  color: #004389;
 }
 .sec4 .container .cont p:after {
   position: absolute;
@@ -351,4 +352,141 @@ footer .container p {
 }
 footer .container p a {
   color: white;
+}
+@media (max-width: 1400px) {
+  header .container {
+    width: 100%;
+  }
+  header .container .menu {
+    margin: 0 20px;
+  }
+  header .container .topic {
+    margin: 20px auto 0 auto;
+    width: 700px;
+  }
+  header .container .topic p {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+  }
+  header .container .cont h1 {
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 2vw;
+    letter-spacing: -0.005em;
+    color: white;
+    padding-left: 33px;
+    position: relative;
+    margin-top: 7.5vw;
+    margin-left: 120px;
+  }
+  header .container .cont h1::before {
+    height: 11vw;
+    width: 8px;
+    position: absolute;
+  }
+  .sec1 .container {
+    width: 720px;
+  }
+  .sec1 .container h2 {
+    font-size: 45px;
+  }
+  .sec2 .container {
+    width: 90%;
+  }
+  .sec2 .container h2 {
+    font-size: 45px;
+  }
+  .sec2 .container h2:after {
+    top: 65px;
+    right: -60px;
+  }
+  .sec2 .container .cont {
+    padding-left: 100px;
+    margin: 110px auto 0 auto;
+    width: 890px;
+    position: relative;
+  }
+  .sec2 .container .cont p {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  .sec2 .container .cont p:after {
+    width: 15px;
+    height: 15px;
+    top: 11px;
+    left: -25px;
+  }
+  .sec2 .container .cont:after {
+    width: 890px;
+    height: 240px;
+    border-radius: 60px;
+    top: -20px;
+    left: 30px;
+  }
+  .sec2 .container .cont:before {
+    width: 890px;
+    height: 240px;
+    border-radius: 60px;
+    top: 15px;
+    left: 65px;
+  }
+  .sec3 .container {
+    width: 95%;
+  }
+  .sec3 .container h2 {
+    font-size: 45px;
+  }
+  .sec3 .container #map {
+    margin: 0 3.5vw;
+    width: 90%;
+    height: 600px;
+  }
+  .sec4 .container {
+    width: 95%;
+  }
+  .sec4 .container h2 {
+    font-size: 45px;
+  }
+  .sec4 .container .cont {
+    padding-left: 100px;
+    margin: 60px auto 0 auto;
+    width: 890px;
+    position: relative;
+  }
+  .sec4 .container .cont p {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  .sec4 .container .cont p a {
+    text-decoration: none;
+  }
+  .sec4 .container .cont p:after {
+    width: 15px;
+    height: 15px;
+    top: 11px;
+    left: -25px;
+  }
+  .sec4 .container .cont:after {
+    width: 920px;
+    height: 370px;
+    border-radius: 60px;
+    top: -20px;
+    left: 30px;
+  }
+  .sec4 .container .cont:before {
+    width: 920px;
+    height: 370px;
+    border-radius: 60px;
+    top: 15px;
+    left: 65px;
+  }
+  footer .container p {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: -20px;
+  }
 }

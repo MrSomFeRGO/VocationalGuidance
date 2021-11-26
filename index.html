@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=1920px, initial-scale=1.0" />
+  <meta id="meta" name="viewport" content="width=device-width, initial-scale=1">
   <title>Профориентация СШ №12</title>
   <link rel="stylesheet" href="css/style.min.css" />
   <!-- <link rel="stylesheet" href="css/reset.css" /> -->
@@ -13,6 +13,12 @@
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
   <script>
+    // window.onload = function () {
+    //   if (screen.width < 1020) {
+    //     var meta = document.getElementById('meta');
+    //     meta.setAttribute('content', 'width=1920px, initial-scale=1');
+    //   }
+    // }
     $(document).ready(function () {
       $(".slider_block").bxSlider({
         slideMargin: 40,
@@ -127,10 +133,10 @@
     <section class="sec3" id="sec3">
       <div class="container">
         <h2>Карта учебных заведений</h2>
-        <!-- https://yandex.ru/map-constructor/ -->
-        <iframe
+        <!-- https://yandex.ru/map-constructor/ width="1200" height="720"-->
+        <iframe id="map"
           src="https://yandex.ru/map-widget/v1/?um=constructor%3A53ee86e001d33c0dc90cd001ca29235fc924427219cc422ca5a8a7574aba2468&amp;source=constructor"
-          width="1200" height="720" frameborder="0"></iframe>
+          frameborder="0"></iframe>
       </div>
     </section>
     <section class="sec4" id="sec4">
