@@ -62,6 +62,7 @@
   right: 25px;
   background-image: url("../assets/img/to_top.png");
   cursor: pointer;
+  z-index: 99999;
 }
 .container {
   width: 1365px;
@@ -80,14 +81,16 @@ h2 span {
 html {
   scroll-behavior: smooth;
   min-width: 1020px;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: 'Neo Sans Pro', sans-serif;
   font-size: 24px;
   font-weight: 400;
   margin: 0;
+  padding: 0;
   min-width: 1020px;
-  overflow-x: hidden;
 }
 header {
   background-image: url(../assets/img/header_bg.png);
@@ -491,5 +494,15 @@ footer .container p a {
     font-size: 20px;
     line-height: 24px;
     margin-bottom: -20px;
+  }
+}
+@media (max-width: 1400px) {
+  header .container .cont h1 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 70px;
+  }
+  .sec3 .container #map {
+    margin: 0 35px;
   }
 }
