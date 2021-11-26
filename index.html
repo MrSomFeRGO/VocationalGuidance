@@ -24,24 +24,26 @@
         infiniteLoop: true,
       });
     });
-    $(function() {
-      $(window).scroll(function() {
-        if($(this).scrollTop() != 0) {
+    $(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() != 0) {
           $('#toTop').fadeIn();
-        } else { 
+        } else {
           $('#toTop').fadeOut();
         }
       });
-        
-      $('#toTop').click(function() {
-        $('body,html').animate({scrollTop:0},800);
+
+      $('#toTop').click(function () {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 800);
       });
     });
   </script>
 </head>
 
 <body>
-  
+
   <div class="wrapper">
     <header>
       <div class="container">
@@ -122,7 +124,9 @@
       <div class="container">
         <h2>Карта учебных заведений</h2>
         <!-- https://yandex.ru/map-constructor/ -->
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A35e8978de0e1f97468400d9427dfb11a7b366ccb5aa509f350db78c30c2506de&amp;source=constructor" width="1200" height="720" frameborder="0"></iframe>
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A35e8978de0e1f97468400d9427dfb11a7b366ccb5aa509f350db78c30c2506de&amp;source=constructor"
+          width="1200" height="720" frameborder="0"></iframe>
       </div>
     </section>
     <section class="sec4" id="sec4">
@@ -130,7 +134,8 @@
         <h2>Полезный ссылки</h2>
         <div class="cont">
           <p>
-            <a href="http://www.ripo.unibel.by/" target="_blank">Республиканского института профессионального образования</a>
+            <a href="http://www.ripo.unibel.by/" target="_blank">Республиканского института профессионального
+              образования</a>
           </p>
           <p>
             <a href="http://www.academy.edu.by/" target="_blank">Академии последипломного образования</a>
@@ -139,7 +144,8 @@
             <a href="https://www.adu.by/ru/" target="_blank">Национального института образования</a>
           </p>
           <p>
-            <a href="https://mintrud.gov.by/ru" target="_blank">Министерства труда и социальной защиты Республики Беларусь</a>
+            <a href="https://mintrud.gov.by/ru" target="_blank">Министерства труда и социальной защиты Республики
+              Беларусь</a>
           </p>
           <p>
             <a href="https://edu.gov.by/" target="_blank">Министерства образования Республики Беларусь</a>
