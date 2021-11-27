@@ -511,3 +511,13 @@ footer .container p a {
     margin: 0 35px;
   }
 }
+@media (min-width: 1800px) {
+  header .container .cont h1 {
+    font-size: 44px;
+    line-height: 44px;
+    margin-top: 180px;
+  }
+  header .container .cont h1:before {
+    height: 230px;
+  }
+}
