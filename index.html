@@ -8,17 +8,12 @@
   <title>Профориентация СШ №12</title>
   <link rel="stylesheet" href="css/style.min.css" />
   <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
   <link rel="stylesheet" href="./css/jquery.bxslider.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
   <script>
-    // window.onload = function () {
-    //   if (screen.width < 1020) {
-    //     var meta = document.getElementById('meta');
-    //     meta.setAttribute('content', 'width=1920px, initial-scale=1');
-    //   }
-    // }
     $(document).ready(function () {
       $(".slider_block").bxSlider({
         slideMargin: 40,
@@ -163,13 +158,42 @@
         </div>
       </div>
     </section>
-    <!-- <section class="sec5">
+    <section class="sec5">
       <div class="container">
-        <h2>Другие работы</h2>
-        <h1>TODO</h1>
-        <!-- TODO: Сделать дизайн -->
-    <!-- </div>
-    </section> -->
+        <h2>Буклеты</h2>
+        <div class="cont">
+          <p>
+            <a data-src="/assets/imgB/db1.png" data-fancybox="gallery"><span>Администратор
+                базз данных</span> (Лучиц)</a><a data-src="/assets/imgB/db2.png" data-fancybox="gallery"
+              style="display: none;"></a>
+          </p>
+          <p>
+            <a data-src="#" data-fancybox="gallery"><span>Тестировщик</span> (Бонда)</a>
+          </p>
+          <p>
+            <a data-src="#" data-fancybox="gallery"><span>Веб-дизайнер</span> (Новиков Денис)</a>
+          </p>
+          <p>
+            <a data-src="https://mintrud.gov.by/ru" data-fancybox="gallery"><span>Пилот</span> (Девиск)</a>
+          </p>
+          <p>
+            <a data-src="https://edu.gov.by/" data-fancybox="gallery"><span>Программист</span> (Бонда)</a>
+          </p>
+          <p>
+            <a data-src="https://edu.gov.by/" data-fancybox="gallery"><span>Программист</span> (Новиков)</a>
+          </p>
+          <p>
+            <a data-src="https://edu.gov.by/" data-fancybox="gallery"><span>Профессии будущего</span> (Сухоносова)</a>
+          </p>
+          <p>
+            <a data-src="https://edu.gov.by/" data-fancybox="gallery"><span>Тестировщик</span> (Маргарита Белоус)</a>
+          </p>
+          <p>
+            <a data-src="https://edu.gov.by/" data-fancybox="gallery"><span>Flash аниматор</span> (Диковицкий Павел)</a>
+          </p>
+        </div>
+      </div>
+    </section>
     <footer>
       <img src="./assets/img/footer bg.png" alt="" />
       <div class="container">
@@ -182,6 +206,16 @@
     </footer>
   </div>
   <div id="toTop"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script type="module">
+    import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.esm.js";
+    Fancybox.getInstance().getSlide().Panzoom.toggleZoom();
+    Fancybox.bind("[data-fancybox]", {
+      Image: {
+        zoom: false,
+      },
+    });
+  </script>
 </body>
 
 </html>
