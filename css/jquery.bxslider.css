@@ -52,7 +52,7 @@ ul.bxslider {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2000;
+  z-index: 9;
 }
 
 /* PAGER */
@@ -116,7 +116,7 @@ ul.bxslider {
   width: 58px;
   height: 58px;
   text-indent: -9999px;
-  z-index: 9999;
+  z-index: 9;
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {
