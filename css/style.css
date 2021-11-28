@@ -1,58 +1,44 @@
 @font-face {
-  font-family: 'Neo Sans Pro';
-  src: url('../assets/fonts/NeoSansPro-Bold.eot');
-  src: local('Neo Sans Pro Bold'), local('../assets/fonts/NeoSansPro-Bold'), url('../assets/fonts/NeoSansPro-Bold.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/NeoSansPro-Bold.woff') format('woff'), url('../assets/fonts/NeoSansPro-Bold.ttf') format('truetype');
-  font-weight: bold;
+  font-family: 'Roboto';
   font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1MmgWxP.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Neo Sans Pro';
-  src: url('../assets/fonts/NeoSansPro-Medium.eot');
-  src: local('Neo Sans Pro Medium'), local('../assets/fonts/NeoSansPro-Medium'), url('../assets/fonts/NeoSansPro-Medium.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/NeoSansPro-Medium.woff') format('woff'), url('../assets/fonts/NeoSansPro-Medium.ttf') format('truetype');
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
   font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Neo Sans Pro';
-  src: url('../assets/fonts/NeoSansPro-LightItalic.eot');
-  src: local('Neo Sans Pro Light Italic'), local('../assets/fonts/NeoSansPro-LightItalic'), url('../assets/fonts/NeoSansPro-LightItalic.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/NeoSansPro-LightItalic.woff') format('woff'), url('../assets/fonts/NeoSansPro-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Neo Sans Pro';
-  src: url('../assets/fonts/NeoSansPro-Regular.eot');
-  src: local('Neo Sans Pro'), local('../assets/fonts/NeoSansPro-Regular'), url('../assets/fonts/NeoSansPro-Regular.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/NeoSansPro-Regular.woff') format('woff'), url('../assets/fonts/NeoSansPro-Regular.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Roboto';
   font-style: normal;
-}
-@font-face {
-  font-family: 'Neo Sans Pro Ultra';
-  src: url('../assets/fonts/NeoSansPro-Ultra.eot');
-  src: local('Neo Sans Pro Ultra'), local('../assets/fonts/NeoSansPro-Ultra'), url('../assets/fonts/NeoSansPro-Ultra.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/NeoSansPro-Ultra.woff') format('woff'), url('../assets/fonts/NeoSansPro-Ultra.ttf') format('truetype');
   font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Neo Sans Pro';
-  src: url('../assets/fonts/NeoSansPro-BoldItalic.eot');
-  src: local('Neo Sans Pro Bold Italic'), local('../assets/fonts/NeoSansPro-BoldItalic'), url('../assets/fonts/NeoSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/NeoSansPro-BoldItalic.woff') format('woff'), url('../assets/fonts/NeoSansPro-BoldItalic.ttf') format('truetype');
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Neo Sans Pro';
-  src: url('../assets/fonts/NeoSansPro-Light.eot');
-  src: local('Neo Sans Pro Light'), local('../assets/fonts/NeoSansPro-Light'), url('../assets/fonts/NeoSansPro-Light.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/NeoSansPro-Light.woff') format('woff'), url('../assets/fonts/NeoSansPro-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Neo Sans Pro';
-  src: url('../assets/fonts/NeoSansPro-Italic.eot');
-  src: local('Neo Sans Pro Italic'), local('../assets/fonts/NeoSansPro-Italic'), url('../assets/fonts/NeoSansPro-Italic.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/NeoSansPro-Italic.woff') format('woff'), url('../assets/fonts/NeoSansPro-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmYUtvAw.ttf) format('truetype');
 }
 #toTop {
   width: 114px;
@@ -85,7 +71,7 @@ html {
   padding: 0;
 }
 body {
-  font-family: 'Neo Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 400;
   margin: 0;
@@ -132,7 +118,7 @@ header .container .topic p {
   margin: 0;
 }
 header .container .cont h1 {
-  font-family: Neo Sans Pro;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 2vw;
@@ -206,7 +192,7 @@ header .container .cont h1 span {
   position: relative;
 }
 .sec2 .container .cont p {
-  font-family: Neo Sans Pro;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -280,7 +266,7 @@ header .container .cont h1 span {
   position: relative;
 }
 .sec4 .container .cont p {
-  font-family: Neo Sans Pro;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -343,7 +329,7 @@ header .container .cont h1 span {
   position: relative;
 }
 .sec5 .container .cont p {
-  font-family: Neo Sans Pro;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
