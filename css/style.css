@@ -579,8 +579,8 @@ footer .container p a {
   .sec5 .container .cont p:after {
     width: 15px;
     height: 15px;
-    top: 11px;
     left: -25px;
+    top: 11px;
   }
   .sec5 .container .cont:after {
     width: 890px;
